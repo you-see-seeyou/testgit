@@ -35,3 +35,4 @@ int main(int argc, char const *argv[])
     printf("sizeof(%s)  = %ld \n",str,sizeof(str));
     return 0;
 }
+////////////////////////////////////////////////////
