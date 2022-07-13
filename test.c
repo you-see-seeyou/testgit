@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     {
         printf("a[%d] = %d\n",i,a[i]);
     }
-///////////////////////////////////////////////////////
+
     char str[] = "hello world";
     str[0] = 'H';
     char * pstr = world;
