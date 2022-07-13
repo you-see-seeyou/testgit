@@ -1,4 +1,5 @@
 #include<stdio.h>
+/********************************/
 #define world  "hahaha"
 int change_a(int a[],int n)
 {
