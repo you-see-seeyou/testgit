@@ -1,5 +1,7 @@
 #include<stdio.h>
 #define world  "hahaha"
+#define num  10000
+#include<math.h>
 int change_a(int a[],int n)
 {
     for (int i = 0; i < n; i++)
@@ -33,5 +35,6 @@ int main(int argc, char const *argv[])
     str[0] = 'H';
     char * pstr = world;
     printf("sizeof(%s)  = %ld \n",str,sizeof(str));
+
     return 0;
 }
