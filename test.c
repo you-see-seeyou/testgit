@@ -1,5 +1,8 @@
 #include<stdio.h>
 #define world  "hahaha"
+#define num  10000
+
+ extern int extern_a;
 int change_a(int a[],int n)
 {
     for (int i = 0; i < n; i++)
@@ -14,6 +17,7 @@ int change_p(int *a,int n)
         a[i]+=1;
     }
 }
+
 int main(int argc, char const *argv[])
 {
     int a[5] = {1,2,3,4,5};
@@ -31,5 +35,7 @@ int main(int argc, char const *argv[])
     str[0] = 'H';
     char * pstr = world;
     printf("sizeof(%s)  = %ld \n",str,sizeof(str));
+    printf("extern_a = %d \n",extern_a);
+    
     return 0;
 }
