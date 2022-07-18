@@ -7,7 +7,6 @@ int change_a(int a[],int n)
         a[i]+=1;
     }
 }
-
 int change_p(int *a,int n)
 {
     for (int i = 0; i < n; i++)
@@ -28,11 +27,9 @@ int main(int argc, char const *argv[])
     {
         printf("a[%d] = %d\n",i,a[i]);
     }
-///////////////////////////////////////////////////////
     char str[] = "hello world";
     str[0] = 'H';
     char * pstr = world;
     printf("sizeof(%s)  = %ld \n",str,sizeof(str));
     return 0;
 }
-////////////////////////////////////////////////////
