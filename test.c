@@ -1,8 +1,24 @@
+/*
+ * @Author: you-see-seeyou 434886232@qq.com
+ * @Date: 2022-07-20 17:26:14
+ * @LastEditors: you-see-seeyou 434886232@qq.com
+ * @LastEditTime: 2022-07-20 17:26:15
+ * @FilePath: /hq/testgit/test.c
+ * @Description: 
+ * 
+ * Copyright (c) 2022 by you-see-seeyou 434886232@qq.com, All Rights Reserved. 
+ */
 #include<stdio.h>
 #define world  "hahaha"
 #define num  10000
 
- extern int extern_a;
+extern int extern_a;
+/**
+ * @description: 
+ * @param {int} a
+ * @param {int} n
+ * @return {*}
+ */
 int change_a(int a[],int n)
 {
     for (int i = 0; i < n; i++)
