@@ -1,13 +1,14 @@
 /*
- * @Author: you-see-seeyou 434886232@qq.com
- * @Date: 2022-07-20 17:26:14
- * @LastEditors: you-see-seeyou 434886232@qq.com
- * @LastEditTime: 2022-07-20 17:26:15
- * @FilePath: /hq/testgit/test.c
- * @Description: 
- * 
  * Copyright (c) 2022 by you-see-seeyou 434886232@qq.com, All Rights Reserved. 
+ * @LastEditors: you-see-seeyou 434886232@qq.com
+ * @LastEditTime: 2022-07-20 17:41:19
+ * @FilePath: /hq/testgit/test.c
+ * 
+ * @Description: 
+ * @Date: 2022-07-20 17:40:50
+ * @Author: you-see-seeyou 434886232@qq.com
  */
+
 #include<stdio.h>
 #define world  "hahaha"
 #define num  10000
