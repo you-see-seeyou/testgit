@@ -1,7 +1,7 @@
 '''
 Copyright (c) 2022 by you-see-seeyou 434886232@qq.com, All Rights Reserved. 
 LastEditors: you-see-seeyou 434886232@qq.com
-LastEditTime: 2022-07-22 14:27:13
+LastEditTime: 2022-07-22 16:31:26
 FilePath: /hq/testgit/7.15.py
 
 Description: 
@@ -29,6 +29,7 @@ print("this is xinhuazidian")
 for x in xinhuazidian:
         print(x,xinhuazidian[x])
 it = iter(name)
+print("this is list")
 for it in name:
         print(it)
 fun(name)
