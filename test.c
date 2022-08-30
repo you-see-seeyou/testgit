@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2022 by you-see-seeyou 434886232@qq.com, All Rights Reserved. 
- * @LastEditors: you-see-seeyou 434886232@qq.com
- * @LastEditTime: 2022-07-20 17:41:19
+ * @LastEditors: you-see-seeyou
+ * @LastEditTime: 2022-08-19 17:44:29
  * @FilePath: /hq/testgit/test.c
  * 
  * @Description: 
@@ -34,10 +34,10 @@ int change_p(int *a,int n)
         a[i]+=1;
     }
 }
-
 int main(int argc, char const *argv[])
 {
-    int a[5] = {1,2,3,4,5};
+    /*int a[5] = {1,2,3,4,5};
+    a[0] = a[0]<<3;
     const int *p = a;
     p++;
     int * const q = a;
@@ -53,6 +53,10 @@ int main(int argc, char const *argv[])
     char * pstr = world;
     printf("sizeof(%s)  = %ld \n",str,sizeof(str));
     printf("extern_a = %d \n",extern_a);
-    
+    */
+    unsigned int bdl_offset = 0;
+    unsigned int page = 1049;
+    bdl_offset = page & 1;
+    printf("offset = %d \n",bdl_offset);
     return 0;
 }
